@@ -1,0 +1,22 @@
+{
+  "name": "todo-application",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Todo app monorepo (frontend + backend)",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev:frontend": "npm run dev -w todo-frontend",
+    "dev:backend": "npm run dev -w todo-backend",
+    "build:frontend": "npm run build -w todo-frontend",
+    "start:backend": "npm run start -w todo-backend",
+    "build": "nx run-many -t build",
+    "dev": "nx run-many -t dev --parallel=2",
+    "graph": "nx graph"
+  },
+  "devDependencies": {
+    "nx": "^22.5.4"
+  }
+}
