@@ -1,0 +1,150 @@
+{
+  "version": "6.0",
+  "nxVersion": "22.5.4",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "18055541673552180813"
+      },
+      {
+        "file": "README.md",
+        "hash": "13734651741037047980"
+      },
+      {
+        "file": "nx.json",
+        "hash": "9559767716880117905"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "13039082919840105715"
+      },
+      {
+        "file": "package.json",
+        "hash": "2668943373010970355"
+      }
+    ],
+    "projectFileMap": {
+      "todo-backend": [
+        {
+          "file": "backend/.env.example",
+          "hash": "3467599116156413853"
+        },
+        {
+          "file": "backend/README.md",
+          "hash": "17800968753705068008"
+        },
+        {
+          "file": "backend/docker-compose.yml",
+          "hash": "13392826864535098972"
+        },
+        {
+          "file": "backend/package-lock.json",
+          "hash": "7409703415530846164"
+        },
+        {
+          "file": "backend/package.json",
+          "hash": "3400959330373247263",
+          "deps": [
+            "npm:cors@2.8.6",
+            "npm:dotenv@16.6.1",
+            "npm:express@4.22.1",
+            "npm:mongoose@8.23.0"
+          ]
+        },
+        {
+          "file": "backend/src/app.js",
+          "hash": "13910587555023540974"
+        },
+        {
+          "file": "backend/src/config/db.js",
+          "hash": "10608871199816130569"
+        },
+        {
+          "file": "backend/src/controllers/todoController.js",
+          "hash": "2509565608160844783"
+        },
+        {
+          "file": "backend/src/models/Todo.js",
+          "hash": "9707819253979959197"
+        },
+        {
+          "file": "backend/src/routes/todoRoutes.js",
+          "hash": "3118123445150633842"
+        },
+        {
+          "file": "backend/src/server.js",
+          "hash": "6673285616607624145"
+        }
+      ],
+      "todo-frontend": [
+        {
+          "file": "frontend/.vite/deps/_metadata.json",
+          "hash": "6409782866041114292"
+        },
+        {
+          "file": "frontend/README.md",
+          "hash": "18037355974074402683"
+        },
+        {
+          "file": "frontend/index.html",
+          "hash": "8835217753605143367"
+        },
+        {
+          "file": "frontend/package-lock.json",
+          "hash": "12565033606119889333"
+        },
+        {
+          "file": "frontend/package.json",
+          "hash": "14849853650121718669",
+          "deps": [
+            "npm:@vitejs/plugin-react@4.7.0",
+            "npm:vite@5.4.21",
+            "npm:axios",
+            "npm:react@18.3.1",
+            "npm:react-dom@18.3.1"
+          ]
+        },
+        {
+          "file": "frontend/src/App.jsx",
+          "hash": "10080725143944124531"
+        },
+        {
+          "file": "frontend/src/components/EditTodoModal.jsx",
+          "hash": "10921009755850645086"
+        },
+        {
+          "file": "frontend/src/components/TodoForm.jsx",
+          "hash": "339117447394331864"
+        },
+        {
+          "file": "frontend/src/components/TodoItem.jsx",
+          "hash": "9370506313538909573"
+        },
+        {
+          "file": "frontend/src/components/TodoList.jsx",
+          "hash": "13442809234379632865"
+        },
+        {
+          "file": "frontend/src/main.jsx",
+          "hash": "4819598611476885230"
+        },
+        {
+          "file": "frontend/src/services/api.js",
+          "hash": "1604340166635632818"
+        },
+        {
+          "file": "frontend/src/styles.css",
+          "hash": "11031203520025418162"
+        },
+        {
+          "file": "frontend/vite.config.js",
+          "hash": "14363377240000695029"
+        }
+      ]
+    }
+  },
+  "externalNodesHash": "11478140377724827663"
+}
